@@ -1,14 +1,26 @@
-isucon3_prepare
+isucon5_cheatsheet
 ===============
 
-# ISUCON3 レギュレーションと予選当時の流れ
+# ISUCON5 情報
+
+- [優勝賞金100万円！今年もやります ISUCON5 開催と日程のお知らせ](http://isucon.net/archives/44132090.html)
+- [ISUCON参加者向け Google Cloud Platform (GCP)の使い方](http://isucon.net/archives/45253058.html)
+  - だれかのアカウントでイメージ作って皆にシェア。最後に tagomoris ユーザにもシェア
+  - GCPクーポン$100が当日もらえるようだ。練習では新しいアカウントには$300、60日の試用が与えられるのでそれを使えば良い
+
+# ISUCON4 情報
+
+- https://github.com/isucon/isucon4
+  - レギュレーション、AMI情報などもここにある
+
+# ISUCON3 情報
 
 - http://isucon.net/archives/cat_1024990.html
 - https://gist.github.com/941/191180fd8e33aae121cb
 
-# 当日の行動
+# 予選当日の行動
 
-- 予選 10月5日(土) 10:00 - 18:00 => 10月6日(日) 10:00 - 18:00 に変更しました
+- 予選参加日程: 9/27(日) 10:00 - 18:00
 - 遅くとも 09:30 にはヒカリエに集まる. 席を近くにする(モニタは借りればよい.休みなので使ってない)
 - ご飯は食べておく and 飲み物とか買っておく
 
