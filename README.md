@@ -7,6 +7,7 @@ isucon5_cheatsheet
 - [ISUCON参加者向け Google Cloud Platform (GCP)の使い方](http://isucon.net/archives/45253058.html)
   - だれかのアカウントでイメージ作って皆にシェア。最後に tagomoris ユーザにもシェア
   - GCPクーポン$100が当日もらえるようだ。練習では新しいアカウントには$300、60日の試用が与えられるのでそれを使えば良い
+- [ISUCON5 予選レギュレーション](http://isucon.net/archives/45347574.html)
 
 # ISUCON4 情報
 
