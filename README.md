@@ -25,25 +25,17 @@ isucon5_cheatsheet
 - 遅くとも 09:30 にはヒカリエに集まる. 席を近くにする(モニタは借りればよい.休みなので使ってない)
 - ご飯は食べておく and 飲み物とか買っておく
 
-# 次回に向けて（反省）
+# 進め方
 
 直せそうな所を見つけてすぐ直すよりも、一旦まとめて戦略を錬ってガッとやる方が上位にいけるっぽい
 簡単な改修ポイントがみつかってもまだ手を出さず、最初は洗い出しに専念すること！！
 
-- AMI3台立ち上げる。１台は本番機でインフラ担当が扱う。公開鍵を渡して登録してもらう。
+- 3台立ち上げる。１台は本番機でインフラ担当が扱う。公開鍵を渡して登録してもらう。
 - 本番機を初期設定する
 - レギュレーションを読む
 - メトリクスを取る仕込みを入れて time コマンドかまして１回ベンチ通す(ベンチ１回に何秒かかるか見る)
 
- - mysql で log-queries-not-using-indexes を出すようにしておく
- - HTTPリクエストのメトリクスをとえるプロファイラを仕込む [rack-ltsv_logger](https://github.com/sonots/rack-ltsv_logger) (nginx のログで見る手もある)
- - SQLクエリのメトリクスをとれるプロファイラを仕込む [mysql2_metrics](https://github.com/sonots/mysql2-metrics) (long_query_time = 0 で slow.log 出しておき、mysqlslowdump という手もある) 
- - テンプレートエンジンのメトリクスをとれるプロファイラを仕込む [sinatra-template_metrics](https://github.com/sonots/sinatra-template_metrics)
- - lsof してアプリがどこにアクセスしているのかとっておく
- - vmstat の結果をとっておく
- - iostat の結果をとっておく
- - テーブルのスキーマ、インデックス情報をとっておく (show create table memos, explain ....)
- - https://gist.github.com/sonots/0a6211ea5bb5fc1f795c
+ - See https://github.com/sonots/isucon-bin
 
 - 追加: データの特性をみる
 
@@ -66,7 +58,7 @@ isucon5_cheatsheet
 
 - 追加: 明確なチューニングポイントが見えなくなってきた場合、コードレベルでのプロファイリングが必要になってくる(それぐらいしかやることが残っていない)
 
-  - コードにプロファイラを仕込む(golang: pprof, ruby: stackprof)
+  - コードにプロファイラを仕込む(golang: pprof, ruby: stackprof, rack-lineprof)
   - フレームワークが遅かったらフレームワークを外すなど
 
 - 追加: benchmarker の隙を付く、レギュレーションの隙をつく
