@@ -36,9 +36,9 @@ isucon5_cheatsheet
 - メトリクスを取る仕込みを入れて time コマンドかまして１回ベンチ通す(ベンチ１回に何秒かかるか見る)
 
  - mysql で log-queries-not-using-indexes を出すようにしておく
- - HTTPリクエストのメトリクスをとえるプロファイラを仕込む (nginx のログで見る手もある)
- - SQLクエリのメトリクスをとれるプロファイラを仕込む (long_query_time = 0 で slow.log 出しておき、mysqlslowdump という手もある)
- - テンプレートエンジンのメトリクスをとれるプロファイラを仕込む
+ - HTTPリクエストのメトリクスをとえるプロファイラを仕込む [rack-ltsv_logger](https://github.com/sonots/rack-ltsv_logger) (nginx のログで見る手もある)
+ - SQLクエリのメトリクスをとれるプロファイラを仕込む [mysql2_metrics](https://github.com/sonots/mysql2-metrics) (long_query_time = 0 で slow.log 出しておき、mysqlslowdump という手もある) 
+ - テンプレートエンジンのメトリクスをとれるプロファイラを仕込む [sinatra-template_metrics](https://github.com/sonots/sinatra-template_metrics)
  - lsof してアプリがどこにアクセスしているのかとっておく
  - vmstat の結果をとっておく
  - iostat の結果をとっておく
