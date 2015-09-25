@@ -8,6 +8,8 @@ isucon5_cheatsheet
   - だれかのアカウントでイメージ作って皆にシェア。最後に tagomoris ユーザにもシェア
   - GCPクーポン$100が当日もらえるようだ。練習では新しいアカウントには$300、60日の試用が与えられるのでそれを使えば良い
 - [ISUCON5 予選レギュレーション](http://isucon.net/archives/45347574.html)
+- [ISUCON5 メール](https://gist.github.com/tnmt/4c7ffed96c2d9c213eaa)
+- [ISUCON5 FAQ](https://gist.github.com/941/f11e4c85ebca0cb3d307)
 
 # ISUCON4 情報
 
