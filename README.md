@@ -37,7 +37,7 @@ isucon5_cheatsheet
 - レギュレーションを読む
 - メトリクスを取る仕込みを入れて time コマンドかまして１回ベンチ通す(ベンチ１回に何秒かかるか見る)
 
- - See https://github.com/sonots/isucon-bin
+- 色々情報を集める > https://github.com/sonots/isucon-bin
 
 - 追加: データの特性をみる
 
